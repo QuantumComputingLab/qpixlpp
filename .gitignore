@@ -1,0 +1,15 @@
+# Mac and MATLAB
+.DS_Store
+*.m~
+
+# Swap files
+*.swp
+
+# Builds
+build/
+debug/
+release/
+
+# Documentation
+doc/doxygen/html/
+doc/doxygen/latex/

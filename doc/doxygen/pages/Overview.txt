@@ -1,0 +1,80 @@
+/*! \mainpage Overview
+
+QPIXL++ is a C++ package for compiling and compressing quantum circuits for quantum
+pixel (QPIXL) representations.QPIXL++ is build on top of QCLAB++. It can simulate the QPIXL circuit to verify the image representations and provides I/O through openQASM making it compatible with quantum hardware. 
+
+
+## How to run?
+
+The QPIXL++ package uses the CMake build system (CMake version ≥ 3.16).
+The recommended way of building the QPIXL++ library is as follows:
+
+1.      Install
+        \code {.bash}
+        git clone https://github.com/QuantumComputingLab/qpixlpp.git
+        \endcode
+
+2.      CMake
+        \code {.bash}
+        cd qpixlpp
+        mkdir release
+        cd release
+        cmake -DCMAKE_BUILD_TYPE=Release ..
+        make -j8
+        \endcode
+
+3.      Run tests
+        \code {.bash}
+        ./test/qpixl_tests
+        \endcode
+
+4.      Examples
+        \code {.bash}
+        ./examples/compressedFRQI ../examples/Example0.pgm ../examples/output 0 0
+        \endcode
+        
+5.      Generate documentation
+        \code {.bash}
+        doxygen doxygen.dox
+        \endcode
+
+
+## References
+The QPIXL++ package is based on:
+- Quantum pixel representations and compression for N-dimensional images,
+  Mercy Amankwah, Daan Camps, E. Wes Bethel, Roel Van Beeumen, and Talita Perciano (2021)
+
+
+## Developers - Lawrence Berkeley National Laboratory
+- [Daan Camps](http://campsd.github.io/) - dcamps@lbl.gov
+- [Mercy Amankwah](https://mathstats.case.edu/student/mercy-amankwah/) - mercy.amankwah@case.edu
+- [E. Wes Bethel](https://dav.lbl.gov/~wes/) - ewbethel@lbl.gov
+- [Talita Perciano](https://tperciano.wixsite.com/home) - tperciano@lbl.gov
+- [Roel Van Beeumen](http://www.roelvanbeeumen.be/) - rvanbeeumen@lbl.gov
+
+
+
+## Funding
+The QPIXL++ project is supported by the Laboratory Directed Research and
+Development Program of Lawrence Berkeley National Laboratory under U.S.
+Department of Energy Contract No. DE-AC02-05CH11231.
+
+
+## About
+QPIXL++ Copyright (c) 2021, The Regents of the University of California,
+through Lawrence Berkeley National Laboratory (subject to receipt of
+any required approvals from the U.S. Dept. of Energy). All rights reserved.
+
+If you have questions about your rights to use or distribute this software,
+please contact Berkeley Lab's Intellectual Property Office at
+IPO@lbl.gov.
+
+NOTICE.  This Software was developed under funding from the U.S. Department
+of Energy and the U.S. Government consequently retains certain rights. As
+such, the U.S. Government has been granted for itself and others acting on
+its behalf a paid-up, nonexclusive, irrevocable, worldwide license in the
+Software to reproduce, distribute copies to the public, prepare derivative
+works, and perform publicly and display publicly, and to permit others to do so.
+
+*/
+
