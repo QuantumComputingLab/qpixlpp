@@ -40,7 +40,7 @@ The recommended way of building QPIXL++ is as follows:
 
 ## References
 The QPIXL++ package is based on:
-- Quantum pixel representations and compression for N-dimensional images,
+- [Quantum pixel representations and compression for N-dimensional images](https://arxiv.org/abs/2110.04405),
   Mercy Amankwah, Daan Camps, E. Wes Bethel, Roel Van Beeumen, and Talita Perciano (2021)
 
 
