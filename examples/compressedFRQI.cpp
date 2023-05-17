@@ -132,7 +132,7 @@ int main( int argc , char *argv[] ) {
         << (1.0 - (double(nRY)/maxgates))*100
         << std::endl << std::endl
         << "OPENQASM 2.0;" << std::endl
-        << "include \"qelib1.inc" << std::endl << std::endl
+        << "include \"qelib1.inc\";" << std::endl << std::endl
         << "qreg q[" << N << "];" << std::endl
         << qasm.str() ;
   ostrm.close() ;
