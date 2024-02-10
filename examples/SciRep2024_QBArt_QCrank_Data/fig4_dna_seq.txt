@@ -1,0 +1,3 @@
+codonA ['ACT', 'ATT', 'CAA', 'CCA', 'AGG', 'GTT', 'GAA', 'AAG', 'AAA', 'AAG', 'CTT', 'GAT', 'GGC', 'TTT', 'ATG', 'GGT']
+codonB ['ACT', 'ATT', 'CAA', 'CCA', 'ATC', 'GGG', 'GCA', 'AAT', 'ACT', 'ATC', 'CTT', 'GAT', 'GGC', 'TTT', 'ATG', 'GGT']
+
