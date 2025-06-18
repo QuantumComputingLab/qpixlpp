@@ -1,0 +1,8 @@
+Supporting Material for EHands-math Paper
+https://arxiv.org/abs/2502.15928
+
+math/:   Mathematice notebooks with algebraic derivation prooving that  EHands operators: add, mutiply, negation, and parti-flip perfom thier action exactly.
+
+circuits/: This directory includes circuits that compute various polynomials depicted in Figure 3.
+experiments/: Contains raw bitstring probabilities for selected experiments shown in Figure 3.
+
